@@ -1,0 +1,18 @@
+{
+  "name": "@sailci/quickstart-nodejs-simple",
+  "version": "0.0.1",
+  "description": "Sail CI simple node.js pipeline",
+  "main": "index.js",
+  "repository": "git@github.com:sailci/quickstart-nodejs-simple.git",
+  "author": "Sail CI <crew@sail.ci>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "jest": "^23.6.0"
+  }
+}
